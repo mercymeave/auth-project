@@ -21,7 +21,7 @@ repos:
     -   id: flake8
         args: [--max-line-length=120, count = True]
 
--   repo: https://github.com/pycqa/isort
-    rev: 5.10.0
-    hooks:
-    -   id: isort
+#-   repo: https://github.com/pycqa/isort
+#    rev: 5.10.0
+#    hooks:
+#    -   id: isort
