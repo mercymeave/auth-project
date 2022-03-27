@@ -1,0 +1,14 @@
+.env
+venv/
+settings.ini
+**/__pycache__/**
+**__init__.py/**
+__pycache__/
+.pytest_cache
+.vscode
+manage.sh
+setup.cfg
+.DS_Store
+.DS_Store?
+/media
+
