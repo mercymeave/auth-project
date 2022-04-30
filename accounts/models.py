@@ -5,7 +5,7 @@ from django.db import models
 from common.managers import CustomUserManager
 
 PHONE_NUMBER_REGEX = RegexValidator(
-    r"(254|0)(1|7)([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])",
+    r"(+254|0)(1|7)([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])",
     "Phone number should be in the format 254712234345",
 )
 
