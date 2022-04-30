@@ -22,3 +22,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     REQUIRED_FIELDS = []
 
     objects = CustomUserManager()
+
+    def get_subscribers(self):
+        users = User.objects.all()
+        users = users.exclude(pk=self.pk)
+        return users

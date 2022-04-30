@@ -12,3 +12,4 @@ setup.cfg
 .DS_Store?
 /media
 .idea
+cred.json
