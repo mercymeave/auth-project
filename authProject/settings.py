@@ -3,9 +3,7 @@ from datetime import timedelta
 from pathlib import Path
 
 import firebase_admin
-from decouple import config
 from dotenv import load_dotenv
-from firebase_admin import initialize_app, credentials
 
 load_dotenv()
 
